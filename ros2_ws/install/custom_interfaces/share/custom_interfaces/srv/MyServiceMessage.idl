@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/MyServiceMessage.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct MyServiceMessage_Request {
+      string label;
+    };
+    struct MyServiceMessage_Response {
+      @verbatim (language="comment", text=
+        "response")
+      boolean navigation_successfull;
+
+      string message;
+    };
+  };
+};

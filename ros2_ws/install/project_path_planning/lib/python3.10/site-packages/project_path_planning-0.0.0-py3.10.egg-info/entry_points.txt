@@ -1,0 +1,4 @@
+[console_scripts]
+move_to_spot = project_path_planning.action_client:main
+spot_recorder = project_path_planning.spot_recorder:main
+

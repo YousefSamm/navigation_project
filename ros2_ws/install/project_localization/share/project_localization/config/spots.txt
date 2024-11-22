@@ -1,0 +1,9 @@
+corner 1: 
+ geometry_msgs.msg.Point(x=0.43174612558986747, y=0.35457795589567404, z=0.0) 
+ geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.7403142258483187, w=0.6722609961961236) 
+corner 2: 
+ geometry_msgs.msg.Point(x=-0.14820950867927304, y=1.380132903199773, z=0.0) 
+ geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=-0.9616051473029887, w=0.2744367699132121) 
+corner 3: 
+ geometry_msgs.msg.Point(x=-1.424593471914316, y=0.6349633357292649, z=0.0) 
+ geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=-0.607196766368686, w=0.7945515004777295) 

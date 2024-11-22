@@ -1,0 +1,27 @@
+[6.463s] Invoking command in '/home/user/ros2_ws/src/project_path_planning': PYTHONPATH=/home/user/ros2_ws/build/project_path_planning/prefix_override:/home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_path_planning build --build-base /home/user/ros2_ws/build/project_path_planning/build install --record /home/user/ros2_ws/build/project_path_planning/install.log --single-version-externally-managed
+[8.463s] running egg_info
+[8.466s] writing ../../build/project_path_planning/project_path_planning.egg-info/PKG-INFO
+[8.468s] writing dependency_links to ../../build/project_path_planning/project_path_planning.egg-info/dependency_links.txt
+[8.469s] writing entry points to ../../build/project_path_planning/project_path_planning.egg-info/entry_points.txt
+[8.469s] writing requirements to ../../build/project_path_planning/project_path_planning.egg-info/requires.txt
+[8.470s] writing top-level names to ../../build/project_path_planning/project_path_planning.egg-info/top_level.txt
+[8.473s] reading manifest file '../../build/project_path_planning/project_path_planning.egg-info/SOURCES.txt'
+[8.475s] writing manifest file '../../build/project_path_planning/project_path_planning.egg-info/SOURCES.txt'
+[8.476s] running build
+[8.476s] running build_py
+[8.476s] copying project_path_planning/action_client.py -> /home/user/ros2_ws/build/project_path_planning/build/lib/project_path_planning
+[8.477s] running install
+[8.477s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.478s]   warnings.warn(
+[8.478s] running install_lib
+[8.482s] copying /home/user/ros2_ws/build/project_path_planning/build/lib/project_path_planning/action_client.py -> /home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages/project_path_planning
+[8.484s] byte-compiling /home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages/project_path_planning/action_client.py to action_client.cpython-310.pyc
+[8.484s] running install_data
+[8.484s] running install_egg_info
+[8.489s] removing '/home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages/project_path_planning-0.0.0-py3.10.egg-info' (and everything under it)
+[8.491s] Copying ../../build/project_path_planning/project_path_planning.egg-info to /home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages/project_path_planning-0.0.0-py3.10.egg-info
+[8.491s] running install_scripts
+[8.678s] Installing navigate_to_pose script to /home/user/ros2_ws/install/project_path_planning/lib/project_path_planning
+[8.680s] Installing spot_recorder script to /home/user/ros2_ws/install/project_path_planning/lib/project_path_planning
+[8.681s] writing list of installed files to '/home/user/ros2_ws/build/project_path_planning/install.log'
+[8.868s] Invoked command in '/home/user/ros2_ws/src/project_path_planning' returned '0': PYTHONPATH=/home/user/ros2_ws/build/project_path_planning/prefix_override:/home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_path_planning build --build-base /home/user/ros2_ws/build/project_path_planning/build install --record /home/user/ros2_ws/build/project_path_planning/install.log --single-version-externally-managed

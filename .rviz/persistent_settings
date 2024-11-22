@@ -1,0 +1,12 @@
+Last Config Dir: /home/user/.rviz
+Last Image Dir: ""
+Recent Configs:
+  - /home/user/.rviz/default.rviz
+  - /home/user/simulation_ws/src/turtlebot3/turtlebot3_description/rviz/model.rviz
+  - /home/user/simulation_ws/src/turtlebot3/turtlebot3_navigation/rviz/turtlebot3_navigation.rviz
+  - /home/user/simulation_ws/src/turtlebot3/turtlebot3_slam/rviz/turtlebot3_gmapping.rviz
+  - /home/user/catkin_ws/src/mastering_summitxl_solutions/my_sumit_xl_tools/rviz/navigation.rviz
+  - /home/user/catkin_ws/src/mastering_summitxl_solutions/my_sumit_xl_tools/rviz/interactivemarkers.rviz
+  - /opt/ros/indigo/share/sumit_xl_tools/rviz_config/navigation_odom.rviz
+  - /opt/ros/indigo/share/sumit_xl_tools/rviz_config/basic.rviz
+  - /opt/ros/indigo/share/sumit_xl_tools/rviz_config/navigation_map.rviz

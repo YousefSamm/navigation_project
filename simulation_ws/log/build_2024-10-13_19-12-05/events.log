@@ -1,0 +1,779 @@
+[0.000000] (-) TimerEvent: {}
+[0.000630] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000876] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001496] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001580] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001709] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001775] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001805] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001879] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001899] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001918] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001939] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.001963] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.040960] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.042550] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.043652] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/simulation_ws/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/user/simulation_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://3_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('PWD', '/home/user/simulation_ws/build/turtlebot3_gazebo'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_example:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/simulation_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '3_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_xterm:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/simulation_ws/install/turtlebot3_msgs/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '842458'), ('SLOT_PREFIX', '5196d3d9-839d-4297-a3c9-435c634c3a11'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25608'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099866] (-) TimerEvent: {}
+[0.148138] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlebot3_drive\x1b[0m\n'}
+[0.199092] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[0.199965] (-) TimerEvent: {}
+[0.232729] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[0.300078] (-) TimerEvent: {}
+[0.400496] (-) TimerEvent: {}
+[0.500866] (-) TimerEvent: {}
+[0.601208] (-) TimerEvent: {}
+[0.701854] (-) TimerEvent: {}
+[0.802170] (-) TimerEvent: {}
+[0.902496] (-) TimerEvent: {}
+[1.002821] (-) TimerEvent: {}
+[1.103174] (-) TimerEvent: {}
+[1.203472] (-) TimerEvent: {}
+[1.303809] (-) TimerEvent: {}
+[1.404196] (-) TimerEvent: {}
+[1.504553] (-) TimerEvent: {}
+[1.604918] (-) TimerEvent: {}
+[1.705260] (-) TimerEvent: {}
+[1.805620] (-) TimerEvent: {}
+[1.905956] (-) TimerEvent: {}
+[2.006262] (-) TimerEvent: {}
+[2.106592] (-) TimerEvent: {}
+[2.206930] (-) TimerEvent: {}
+[2.307297] (-) TimerEvent: {}
+[2.407638] (-) TimerEvent: {}
+[2.508034] (-) TimerEvent: {}
+[2.608421] (-) TimerEvent: {}
+[2.708734] (-) TimerEvent: {}
+[2.809113] (-) TimerEvent: {}
+[2.909409] (-) TimerEvent: {}
+[3.009754] (-) TimerEvent: {}
+[3.110074] (-) TimerEvent: {}
+[3.210393] (-) TimerEvent: {}
+[3.310817] (-) TimerEvent: {}
+[3.411738] (-) TimerEvent: {}
+[3.512290] (-) TimerEvent: {}
+[3.612649] (-) TimerEvent: {}
+[3.712942] (-) TimerEvent: {}
+[3.813285] (-) TimerEvent: {}
+[3.913588] (-) TimerEvent: {}
+[4.013946] (-) TimerEvent: {}
+[4.114316] (-) TimerEvent: {}
+[4.214636] (-) TimerEvent: {}
+[4.314966] (-) TimerEvent: {}
+[4.415344] (-) TimerEvent: {}
+[4.515679] (-) TimerEvent: {}
+[4.615999] (-) TimerEvent: {}
+[4.716337] (-) TimerEvent: {}
+[4.816943] (-) TimerEvent: {}
+[4.917240] (-) TimerEvent: {}
+[5.017577] (-) TimerEvent: {}
+[5.117887] (-) TimerEvent: {}
+[5.218197] (-) TimerEvent: {}
+[5.318588] (-) TimerEvent: {}
+[5.418939] (-) TimerEvent: {}
+[5.519285] (-) TimerEvent: {}
+[5.622340] (-) TimerEvent: {}
+[5.722680] (-) TimerEvent: {}
+[5.823023] (-) TimerEvent: {}
+[5.923363] (-) TimerEvent: {}
+[6.023701] (-) TimerEvent: {}
+[6.124087] (-) TimerEvent: {}
+[6.224466] (-) TimerEvent: {}
+[6.324813] (-) TimerEvent: {}
+[6.425161] (-) TimerEvent: {}
+[6.525509] (-) TimerEvent: {}
+[6.627247] (-) TimerEvent: {}
+[6.727656] (-) TimerEvent: {}
+[6.827982] (-) TimerEvent: {}
+[6.928335] (-) TimerEvent: {}
+[7.028772] (-) TimerEvent: {}
+[7.129116] (-) TimerEvent: {}
+[7.229411] (-) TimerEvent: {}
+[7.329766] (-) TimerEvent: {}
+[7.430101] (-) TimerEvent: {}
+[7.530493] (-) TimerEvent: {}
+[7.630874] (-) TimerEvent: {}
+[7.731240] (-) TimerEvent: {}
+[7.831611] (-) TimerEvent: {}
+[7.931936] (-) TimerEvent: {}
+[8.032292] (-) TimerEvent: {}
+[8.135200] (-) TimerEvent: {}
+[8.235683] (-) TimerEvent: {}
+[8.335986] (-) TimerEvent: {}
+[8.436483] (-) TimerEvent: {}
+[8.536844] (-) TimerEvent: {}
+[8.637215] (-) TimerEvent: {}
+[8.737573] (-) TimerEvent: {}
+[8.837891] (-) TimerEvent: {}
+[8.938272] (-) TimerEvent: {}
+[9.038678] (-) TimerEvent: {}
+[9.138964] (-) TimerEvent: {}
+[9.239296] (-) TimerEvent: {}
+[9.339648] (-) TimerEvent: {}
+[9.440041] (-) TimerEvent: {}
+[9.540338] (-) TimerEvent: {}
+[9.640682] (-) TimerEvent: {}
+[9.741038] (-) TimerEvent: {}
+[9.841344] (-) TimerEvent: {}
+[9.941699] (-) TimerEvent: {}
+[10.042051] (-) TimerEvent: {}
+[10.142386] (-) TimerEvent: {}
+[10.242739] (-) TimerEvent: {}
+[10.343111] (-) TimerEvent: {}
+[10.443498] (-) TimerEvent: {}
+[10.543823] (-) TimerEvent: {}
+[10.644202] (-) TimerEvent: {}
+[10.744545] (-) TimerEvent: {}
+[10.845628] (-) TimerEvent: {}
+[10.945940] (-) TimerEvent: {}
+[11.046289] (-) TimerEvent: {}
+[11.146632] (-) TimerEvent: {}
+[11.246986] (-) TimerEvent: {}
+[11.347343] (-) TimerEvent: {}
+[11.447814] (-) TimerEvent: {}
+[11.548165] (-) TimerEvent: {}
+[11.648518] (-) TimerEvent: {}
+[11.748871] (-) TimerEvent: {}
+[11.849208] (-) TimerEvent: {}
+[11.949544] (-) TimerEvent: {}
+[12.049841] (-) TimerEvent: {}
+[12.150338] (-) TimerEvent: {}
+[12.250692] (-) TimerEvent: {}
+[12.350970] (-) TimerEvent: {}
+[12.451355] (-) TimerEvent: {}
+[12.551730] (-) TimerEvent: {}
+[12.652058] (-) TimerEvent: {}
+[12.752370] (-) TimerEvent: {}
+[12.852744] (-) TimerEvent: {}
+[12.953110] (-) TimerEvent: {}
+[13.053485] (-) TimerEvent: {}
+[13.153843] (-) TimerEvent: {}
+[13.254150] (-) TimerEvent: {}
+[13.354515] (-) TimerEvent: {}
+[13.454858] (-) TimerEvent: {}
+[13.555256] (-) TimerEvent: {}
+[13.655666] (-) TimerEvent: {}
+[13.756910] (-) TimerEvent: {}
+[13.857195] (-) TimerEvent: {}
+[13.957537] (-) TimerEvent: {}
+[14.057923] (-) TimerEvent: {}
+[14.158262] (-) TimerEvent: {}
+[14.258607] (-) TimerEvent: {}
+[14.358996] (-) TimerEvent: {}
+[14.459410] (-) TimerEvent: {}
+[14.559810] (-) TimerEvent: {}
+[14.660146] (-) TimerEvent: {}
+[14.760598] (-) TimerEvent: {}
+[14.860958] (-) TimerEvent: {}
+[14.961311] (-) TimerEvent: {}
+[15.061645] (-) TimerEvent: {}
+[15.161957] (-) TimerEvent: {}
+[15.262335] (-) TimerEvent: {}
+[15.362704] (-) TimerEvent: {}
+[15.463041] (-) TimerEvent: {}
+[15.563416] (-) TimerEvent: {}
+[15.659256] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[15.666146] (-) TimerEvent: {}
+[15.766483] (-) TimerEvent: {}
+[15.866976] (-) TimerEvent: {}
+[15.948061] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] Built target obstacles\n'}
+[15.967089] (-) TimerEvent: {}
+[15.969868] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle2\x1b[0m\n'}
+[16.028885] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacle2\n'}
+[16.063840] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[16.067178] (-) TimerEvent: {}
+[16.167454] (-) TimerEvent: {}
+[16.267798] (-) TimerEvent: {}
+[16.368137] (-) TimerEvent: {}
+[16.468480] (-) TimerEvent: {}
+[16.568875] (-) TimerEvent: {}
+[16.669264] (-) TimerEvent: {}
+[16.769628] (-) TimerEvent: {}
+[16.869966] (-) TimerEvent: {}
+[16.970269] (-) TimerEvent: {}
+[17.070597] (-) TimerEvent: {}
+[17.170913] (-) TimerEvent: {}
+[17.271257] (-) TimerEvent: {}
+[17.371658] (-) TimerEvent: {}
+[17.472009] (-) TimerEvent: {}
+[17.572375] (-) TimerEvent: {}
+[17.672708] (-) TimerEvent: {}
+[17.773031] (-) TimerEvent: {}
+[17.873397] (-) TimerEvent: {}
+[17.973769] (-) TimerEvent: {}
+[18.074108] (-) TimerEvent: {}
+[18.174552] (-) TimerEvent: {}
+[18.274884] (-) TimerEvent: {}
+[18.375262] (-) TimerEvent: {}
+[18.475589] (-) TimerEvent: {}
+[18.575915] (-) TimerEvent: {}
+[18.676654] (-) TimerEvent: {}
+[18.776948] (-) TimerEvent: {}
+[18.877286] (-) TimerEvent: {}
+[18.977627] (-) TimerEvent: {}
+[19.077992] (-) TimerEvent: {}
+[19.178279] (-) TimerEvent: {}
+[19.278583] (-) TimerEvent: {}
+[19.378931] (-) TimerEvent: {}
+[19.479439] (-) TimerEvent: {}
+[19.579744] (-) TimerEvent: {}
+[19.680083] (-) TimerEvent: {}
+[19.780369] (-) TimerEvent: {}
+[19.880717] (-) TimerEvent: {}
+[19.981085] (-) TimerEvent: {}
+[20.081401] (-) TimerEvent: {}
+[20.181729] (-) TimerEvent: {}
+[20.282074] (-) TimerEvent: {}
+[20.382414] (-) TimerEvent: {}
+[20.482789] (-) TimerEvent: {}
+[20.584683] (-) TimerEvent: {}
+[20.685045] (-) TimerEvent: {}
+[20.785493] (-) TimerEvent: {}
+[20.885883] (-) TimerEvent: {}
+[20.986574] (-) TimerEvent: {}
+[21.086963] (-) TimerEvent: {}
+[21.187270] (-) TimerEvent: {}
+[21.287647] (-) TimerEvent: {}
+[21.387978] (-) TimerEvent: {}
+[21.488310] (-) TimerEvent: {}
+[21.588757] (-) TimerEvent: {}
+[21.689153] (-) TimerEvent: {}
+[21.789537] (-) TimerEvent: {}
+[21.889887] (-) TimerEvent: {}
+[21.990260] (-) TimerEvent: {}
+[22.090626] (-) TimerEvent: {}
+[22.190987] (-) TimerEvent: {}
+[22.291341] (-) TimerEvent: {}
+[22.391743] (-) TimerEvent: {}
+[22.492094] (-) TimerEvent: {}
+[22.592416] (-) TimerEvent: {}
+[22.692796] (-) TimerEvent: {}
+[22.793113] (-) TimerEvent: {}
+[22.893461] (-) TimerEvent: {}
+[22.993787] (-) TimerEvent: {}
+[23.094079] (-) TimerEvent: {}
+[23.194447] (-) TimerEvent: {}
+[23.294753] (-) TimerEvent: {}
+[23.395072] (-) TimerEvent: {}
+[23.495435] (-) TimerEvent: {}
+[23.596792] (-) TimerEvent: {}
+[23.697107] (-) TimerEvent: {}
+[23.797458] (-) TimerEvent: {}
+[23.897759] (-) TimerEvent: {}
+[23.998067] (-) TimerEvent: {}
+[24.098378] (-) TimerEvent: {}
+[24.198708] (-) TimerEvent: {}
+[24.299058] (-) TimerEvent: {}
+[24.399394] (-) TimerEvent: {}
+[24.499700] (-) TimerEvent: {}
+[24.600069] (-) TimerEvent: {}
+[24.700367] (-) TimerEvent: {}
+[24.800724] (-) TimerEvent: {}
+[24.901084] (-) TimerEvent: {}
+[25.001451] (-) TimerEvent: {}
+[25.101819] (-) TimerEvent: {}
+[25.202136] (-) TimerEvent: {}
+[25.302504] (-) TimerEvent: {}
+[25.402834] (-) TimerEvent: {}
+[25.503171] (-) TimerEvent: {}
+[25.603534] (-) TimerEvent: {}
+[25.703928] (-) TimerEvent: {}
+[25.804267] (-) TimerEvent: {}
+[25.904666] (-) TimerEvent: {}
+[26.005077] (-) TimerEvent: {}
+[26.105509] (-) TimerEvent: {}
+[26.206452] (-) TimerEvent: {}
+[26.306790] (-) TimerEvent: {}
+[26.410806] (-) TimerEvent: {}
+[26.511222] (-) TimerEvent: {}
+[26.611637] (-) TimerEvent: {}
+[26.711953] (-) TimerEvent: {}
+[26.812309] (-) TimerEvent: {}
+[26.912674] (-) TimerEvent: {}
+[27.012982] (-) TimerEvent: {}
+[27.113395] (-) TimerEvent: {}
+[27.213752] (-) TimerEvent: {}
+[27.314073] (-) TimerEvent: {}
+[27.414417] (-) TimerEvent: {}
+[27.514750] (-) TimerEvent: {}
+[27.615297] (-) TimerEvent: {}
+[27.715748] (-) TimerEvent: {}
+[27.816321] (-) TimerEvent: {}
+[27.916676] (-) TimerEvent: {}
+[28.017070] (-) TimerEvent: {}
+[28.117473] (-) TimerEvent: {}
+[28.217877] (-) TimerEvent: {}
+[28.318252] (-) TimerEvent: {}
+[28.418688] (-) TimerEvent: {}
+[28.519053] (-) TimerEvent: {}
+[28.619497] (-) TimerEvent: {}
+[28.719885] (-) TimerEvent: {}
+[28.820201] (-) TimerEvent: {}
+[28.920592] (-) TimerEvent: {}
+[29.020942] (-) TimerEvent: {}
+[29.121339] (-) TimerEvent: {}
+[29.221715] (-) TimerEvent: {}
+[29.322069] (-) TimerEvent: {}
+[29.422429] (-) TimerEvent: {}
+[29.441793] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[29.522522] (-) TimerEvent: {}
+[29.622908] (-) TimerEvent: {}
+[29.704037] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[29.720016] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[29.722989] (-) TimerEvent: {}
+[29.812330] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[29.823133] (-) TimerEvent: {}
+[29.829662] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/simulation_ws/build/turtlebot3_gazebo'], 'cwd': '/home/user/simulation_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://3_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('PWD', '/home/user/simulation_ws/build/turtlebot3_gazebo'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_example:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/simulation_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '3_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_xterm:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/simulation_ws/install/turtlebot3_msgs/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '842458'), ('SLOT_PREFIX', '5196d3d9-839d-4297-a3c9-435c634c3a11'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25608'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[29.843234] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.844515] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[29.854672] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/user/simulation_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[29.855535] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[29.855767] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[29.855928] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[29.856345] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[29.856800] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/start_turtlebot3_world.launch.py\n'}
+[29.857441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[29.858027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[29.858760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[29.859812] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[29.860443] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/main_turtlebot3_lab.launch.xml\n'}
+[29.861400] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/start_turtlebot3_world_standalone.launch.py\n'}
+[29.862134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[29.863113] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[29.863601] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[29.863848] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_white\n'}
+[29.863973] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_white/model.sdf\n'}
+[29.864368] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_white/model.config\n'}
+[29.864983] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_4\n'}
+[29.865181] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_4/model.sdf\n'}
+[29.866678] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_4/model.config\n'}
+[29.867342] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_3\n'}
+[29.867566] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_3/model.sdf\n'}
+[29.868155] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_3/model.config\n'}
+[29.868878] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grasping_plate\n'}
+[29.869068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grasping_plate/model.sdf\n'}
+[29.869719] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grasping_plate/model.config\n'}
+[29.870406] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian\n'}
+[29.870844] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/model.sdf\n'}
+[29.871029] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes\n'}
+[29.871176] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/Lego-Person-v001.mtl\n'}
+[29.871948] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/LowPolyAnimations4Game.obj\n'}
+[29.923214] (-) TimerEvent: {}
+[29.969130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/pedestrian1.dae\n'}
+[29.972609] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/LowPolyAnimations4Game.mtl\n'}
+[29.973653] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/pedestrian2.dae\n'}
+[29.978512] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/Lego-Person-v001.obj\n'}
+[30.023325] (-) TimerEvent: {}
+[30.053620] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender\n'}
+[30.053910] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/pedestrian_theconstructcolours.blend1\n'}
+[30.063853] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/walking-character\n'}
+[30.064094] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/walking-character/93731 - LICENSE.html\n'}
+[30.064547] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/walking-character/LowPolyAnimations4Game.blend\n'}
+[30.123456] (-) TimerEvent: {}
+[30.223782] (-) TimerEvent: {}
+[30.260053] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/lego-person-w-face-texture-rig\n'}
+[30.260360] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/lego-person-w-face-texture-rig/86309 - LICENSE.html\n'}
+[30.260908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/lego-person-w-face-texture-rig/Lego-Person-v001.blend\n'}
+[30.323909] (-) TimerEvent: {}
+[30.424313] (-) TimerEvent: {}
+[30.470129] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/pedestrian_theconstructcolours.blend\n'}
+[30.478860] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/guy-character-rig\n'}
+[30.479101] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/guy-character-rig/BLENDSWAP_LICENSE.txt\n'}
+[30.479274] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/guy-character-rig/Guy.blend\n'}
+[30.525047] (-) TimerEvent: {}
+[30.625401] (-) TimerEvent: {}
+[30.725740] (-) TimerEvent: {}
+[30.792490] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/model.config\n'}
+[30.793391] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2\n'}
+[30.793575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/model.sdf\n'}
+[30.793890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes\n'}
+[30.794049] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/walls.blend1\n'}
+[30.825836] (-) TimerEvent: {}
+[30.865734] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/gradient.png\n'}
+[30.866417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/Robotnik_Automation_logo.jpg\n'}
+[30.867781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/Circuit_lab_The_Construct_2020.png\n'}
+[30.925952] (-) TimerEvent: {}
+[30.944456] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/gradient_ilustration.jpg\n'}
+[31.010266] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/ring_v2.dae\n'}
+[31.010954] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/ring_v2.blend1\n'}
+[31.026065] (-) TimerEvent: {}
+[31.072314] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/farming-farms-agriculture-rural-countryside-landscape-green-country-tractor.jpg\n'}
+[31.074488] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/walls.blend\n'}
+[31.126175] (-) TimerEvent: {}
+[31.173196] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/nvidia-logo.jpg\n'}
+[31.174664] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/Circuit_lab_The_Construct_2020.pdf\n'}
+[31.186589] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/ring_v2.blend\n'}
+[31.191314] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/model.config\n'}
+[31.191913] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism\n'}
+[31.192152] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/model.sdf\n'}
+[31.192644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/meshes\n'}
+[31.192806] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/meshes/triangular_prism.dae\n'}
+[31.193351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/model.config\n'}
+[31.193925] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_blue\n'}
+[31.194142] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_blue/model.sdf\n'}
+[31.194597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_blue/model.config\n'}
+[31.195273] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[31.195551] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[31.195680] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[31.196051] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[31.196604] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[31.197168] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[31.197337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[31.197846] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[31.198380] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[31.198559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[31.199071] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[31.199632] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[31.199885] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[31.200330] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[31.200557] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[31.200749] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[31.201267] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[31.201422] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[31.202028] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[31.203499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[31.204121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[31.204298] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[31.204789] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[31.205363] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_orange\n'}
+[31.205569] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_orange/model.sdf\n'}
+[31.207066] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_orange/model.config\n'}
+[31.207305] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1\n'}
+[31.207448] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/model.sdf\n'}
+[31.207571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes\n'}
+[31.207681] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1.blend\n'}
+[31.226264] (-) TimerEvent: {}
+[31.313887] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1.dae\n'}
+[31.314438] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1.blend1\n'}
+[31.326339] (-) TimerEvent: {}
+[31.391584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1_texture.png\n'}
+[31.394522] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/floor_cube.stl\n'}
+[31.395114] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/model.config\n'}
+[31.396492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/cardboard_obstacle\n'}
+[31.396643] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/cardboard_obstacle/model.sdf\n'}
+[31.396750] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/cardboard_obstacle/model.config\n'}
+[31.397694] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[31.398027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[31.426671] (-) TimerEvent: {}
+[31.460969] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[31.461579] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new\n'}
+[31.461940] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/thumbnails\n'}
+[31.462068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/thumbnails/0.png\n'}
+[31.463723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials\n'}
+[31.463933] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/scripts\n'}
+[31.464035] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/scripts/inter.material\n'}
+[31.464589] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/textures\n'}
+[31.464780] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/textures/road_i.png\n'}
+[31.526788] (-) TimerEvent: {}
+[31.548411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/model.sdf\n'}
+[31.548962] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/model.config\n'}
+[31.549519] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new\n'}
+[31.549753] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/thumbnails\n'}
+[31.549867] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/thumbnails/0.png\n'}
+[31.551475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials\n'}
+[31.551857] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/scripts\n'}
+[31.551991] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/scripts/diag.material\n'}
+[31.552277] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/textures\n'}
+[31.552423] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/textures/road_d.png\n'}
+[31.555069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/model.sdf\n'}
+[31.555878] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/model.config\n'}
+[31.556417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_yellow\n'}
+[31.556612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_yellow/model.sdf\n'}
+[31.557133] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_yellow/model.config\n'}
+[31.557659] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road\n'}
+[31.557849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/model.sdf\n'}
+[31.558277] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/meshes\n'}
+[31.558487] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/meshes/RingCircuit.png\n'}
+[31.626910] (-) TimerEvent: {}
+[31.642700] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/meshes/ring_road.dae\n'}
+[31.643217] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/blender\n'}
+[31.643357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/blender/road.blend\n'}
+[31.698265] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/blender/road.blend1\n'}
+[31.702555] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/model.config\n'}
+[31.703162] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[31.703474] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[31.703616] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[31.704428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[31.705231] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[31.708494] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[31.710146] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[31.710937] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[31.711958] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[31.712483] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban\n'}
+[31.712702] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/model.sdf\n'}
+[31.713114] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes\n'}
+[31.713345] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes/roadsing_turnban.dae\n'}
+[31.714248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes/turnban.png\n'}
+[31.715602] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes/roadsing_turnban_v2.dae\n'}
+[31.716676] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender\n'}
+[31.716850] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/uk-road-signs-pack-1-updated-version\n'}
+[31.716999] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/uk-road-signs-pack-1-updated-version/BLENDSWAP_LICENSE.txt\n'}
+[31.718066] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/uk-road-signs-pack-1-updated-version/road signs - pack 1 by Richard Edwards.blend\n'}
+[31.726997] (-) TimerEvent: {}
+[31.790157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsing_turnban.blend\n'}
+[31.795451] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsing_turnban_v2.blend\n'}
+[31.827115] (-) TimerEvent: {}
+[31.874430] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/german-street-signs\n'}
+[31.874825] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/german-street-signs/street_signs_all.blend\n'}
+[31.927306] (-) TimerEvent: {}
+[32.027711] (-) TimerEvent: {}
+[32.048546] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/german-street-signs/93735 - LICENSE.html\n'}
+[32.049165] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsing_turnban.blend1\n'}
+[32.112758] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsign_custom.blend\n'}
+[32.127809] (-) TimerEvent: {}
+[32.176690] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/model.config\n'}
+[32.177116] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors\n'}
+[32.177292] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/r200.jpg\n'}
+[32.177842] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/r200.dae\n'}
+[32.180508] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/astra.jpg\n'}
+[32.182043] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/astra.dae\n'}
+[32.227930] (-) TimerEvent: {}
+[32.239584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/lds.stl\n'}
+[32.296910] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_3\n'}
+[32.297138] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_3/model.sdf\n'}
+[32.297468] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_3/model.config\n'}
+[32.298055] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_7\n'}
+[32.298282] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_7/model.sdf\n'}
+[32.298715] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_7/model.config\n'}
+[32.299350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_1\n'}
+[32.299565] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_1/model.sdf\n'}
+[32.300235] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_1/model.config\n'}
+[32.300779] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/overlord_camera\n'}
+[32.301007] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/overlord_camera/model.sdf\n'}
+[32.301472] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/overlord_camera/model.config\n'}
+[32.302059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2_clone\n'}
+[32.302270] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2_clone/model.sdf\n'}
+[32.302802] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2_clone/model.config\n'}
+[32.303309] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism\n'}
+[32.303492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/model.sdf\n'}
+[32.303944] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes\n'}
+[32.304147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes/signal_stop.dae\n'}
+[32.305944] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes/stop.jpg\n'}
+[32.307519] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes/signal_stop_fix.dae\n'}
+[32.308295] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/model.config\n'}
+[32.308957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_pink\n'}
+[32.309169] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_pink/model.sdf\n'}
+[32.309686] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_pink/model.config\n'}
+[32.310250] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[32.310532] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[32.311144] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[32.311913] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[32.312496] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[32.312911] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[32.313557] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[32.314260] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[32.315240] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera\n'}
+[32.315441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/materials\n'}
+[32.315618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/materials/textures\n'}
+[32.315686] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/materials/textures/kinect.png\n'}
+[32.316286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/model.sdf\n'}
+[32.316873] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/meshes\n'}
+[32.317095] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/meshes/kinect.dae\n'}
+[32.328022] (-) TimerEvent: {}
+[32.387512] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/model.config\n'}
+[32.388913] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/kinect.xml\n'}
+[32.389584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_pedestrian\n'}
+[32.389849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_pedestrian/model.sdf\n'}
+[32.390308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_pedestrian/model.config\n'}
+[32.390846] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_3\n'}
+[32.391195] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_3/model.sdf\n'}
+[32.391778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_3/model.config\n'}
+[32.392427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight\n'}
+[32.392562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/model.sdf\n'}
+[32.392964] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes\n'}
+[32.393143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlights.obj\n'}
+[32.394916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlight2.dae\n'}
+[32.398724] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlight.dae\n'}
+[32.399963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/TrafficLight.obj\n'}
+[32.401217] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlights.mtl\n'}
+[32.401951] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/TrafficLight.mtl\n'}
+[32.402980] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender\n'}
+[32.403322] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light\n'}
+[32.403504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light/Traffic Light.blend\n'}
+[32.414057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light/Traffic Light.blend1\n'}
+[32.422098] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light/79768 - LICENSE.html\n'}
+[32.423132] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/trafficlightcustom.blend\n'}
+[32.428250] (-) TimerEvent: {}
+[32.502756] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style\n'}
+[32.502994] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style/BLENDSWAP_LICENSE.txt\n'}
+[32.503441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style/traffic lights.blend\n'}
+[32.528369] (-) TimerEvent: {}
+[32.628708] (-) TimerEvent: {}
+[32.669239] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style/traffic lights.blend1\n'}
+[32.728835] (-) TimerEvent: {}
+[32.748344] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/trafficlightcustom.blend1\n'}
+[32.754580] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/model.config\n'}
+[32.755182] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_2\n'}
+[32.755485] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_2/model.sdf\n'}
+[32.755761] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_2/model.config\n'}
+[32.756287] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_stop\n'}
+[32.756497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_stop/model.sdf\n'}
+[32.757026] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_stop/model.config\n'}
+[32.757606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_4\n'}
+[32.757776] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_4/model.sdf\n'}
+[32.758297] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_4/model.config\n'}
+[32.758896] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_2\n'}
+[32.759097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_2/model.sdf\n'}
+[32.759574] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_2/model.config\n'}
+[32.760139] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1\n'}
+[32.760377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/model.sdf\n'}
+[32.760900] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes\n'}
+[32.761059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_4.dae\n'}
+[32.761595] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_7.dae\n'}
+[32.764870] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_5.jpg\n'}
+[32.765954] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_5.dae\n'}
+[32.766608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_6.jpg\n'}
+[32.768066] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_7.jpg\n'}
+[32.769242] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_2.dae\n'}
+[32.769977] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_1.dae\n'}
+[32.770907] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_4.jpg\n'}
+[32.771954] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_3.jpg\n'}
+[32.772562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_2.jpg\n'}
+[32.774055] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_3.dae\n'}
+[32.774651] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_1.jpg\n'}
+[32.775303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_6.dae\n'}
+[32.776547] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender\n'}
+[32.776681] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag.blend\n'}
+[32.828942] (-) TimerEvent: {}
+[32.843900] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag_1.blend\n'}
+[32.897580] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag_1.blend1\n'}
+[32.929034] (-) TimerEvent: {}
+[32.967327] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag.blend1\n'}
+[32.972571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/model.config\n'}
+[32.973012] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[32.973222] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[32.973716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[32.973890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[32.974781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[32.975336] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[32.975981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[32.976523] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_purple\n'}
+[32.976807] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_purple/model.sdf\n'}
+[32.977166] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_purple/model.config\n'}
+[32.977717] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2\n'}
+[32.977918] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2/model.sdf\n'}
+[32.978378] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2/model.config\n'}
+[32.978927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[32.979146] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[32.980504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[32.981257] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[32.981968] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging\n'}
+[32.982173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging/model.sdf\n'}
+[32.982631] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging/model.config\n'}
+[32.983192] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_6\n'}
+[32.983381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_6/model.sdf\n'}
+[32.985627] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_6/model.config\n'}
+[32.985758] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian1\n'}
+[32.985830] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian1/model.sdf\n'}
+[32.986149] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian1/model.config\n'}
+[32.986414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_5\n'}
+[32.986526] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_5/model.sdf\n'}
+[32.987170] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_5/model.config\n'}
+[32.988261] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/wheels\n'}
+[32.988410] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/wheels/right_tire.stl\n'}
+[32.995511] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/wheels/left_tire.stl\n'}
+[33.002136] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new\n'}
+[33.002307] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/thumbnails\n'}
+[33.002392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/thumbnails/0.png\n'}
+[33.004442] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials\n'}
+[33.004685] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/scripts\n'}
+[33.004769] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/scripts/plane.material\n'}
+[33.005392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/textures\n'}
+[33.005564] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/textures/road_p.png\n'}
+[33.010189] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/model.sdf\n'}
+[33.010778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/model.config\n'}
+[33.011582] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red\n'}
+[33.011774] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red/model.sdf\n'}
+[33.012642] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red/model.config\n'}
+[33.013567] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/area_charging\n'}
+[33.013764] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/area_charging/model.sdf\n'}
+[33.014314] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/area_charging/model.config\n'}
+[33.014998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_direccion_obligada\n'}
+[33.015179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_direccion_obligada/model.sdf\n'}
+[33.016645] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_direccion_obligada/model.config\n'}
+[33.017222] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_green\n'}
+[33.017412] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_green/model.sdf\n'}
+[33.018530] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_green/model.config\n'}
+[33.019206] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_robot_arm\n'}
+[33.019425] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_robot_arm/model.sdf\n'}
+[33.019556] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_robot_arm/model.config\n'}
+[33.019716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism\n'}
+[33.020033] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/model.sdf\n'}
+[33.020226] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes\n'}
+[33.020411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes/pedestrian.png\n'}
+[33.020624] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes/signal_pedestrian.dae\n'}
+[33.020729] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes/signal_pedestrian_fix.dae\n'}
+[33.020909] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/model.config\n'}
+[33.021135] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red_big\n'}
+[33.021209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red_big/model.sdf\n'}
+[33.021309] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red_big/model.config\n'}
+[33.021443] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases\n'}
+[33.021556] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases/waffle_base.stl\n'}
+[33.029123] (-) TimerEvent: {}
+[33.051917] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases/burger_base.stl\n'}
+[33.059498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases/waffle_pi_base.stl\n'}
+[33.071123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_starting\n'}
+[33.071495] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_starting/model.sdf\n'}
+[33.071858] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_starting/model.config\n'}
+[33.071966] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road\n'}
+[33.072068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/model.sdf\n'}
+[33.072158] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/meshes\n'}
+[33.072237] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/meshes/EightCircuit.png\n'}
+[33.076618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/meshes/eightroad.dae\n'}
+[33.077222] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/blender\n'}
+[33.077358] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/blender/eightroad.blend\n'}
+[33.078271] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/model.config\n'}
+[33.078469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall\n'}
+[33.078592] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall/model.sdf\n'}
+[33.078727] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall/model.config\n'}
+[33.079058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism\n'}
+[33.079194] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/model.sdf\n'}
+[33.079404] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes\n'}
+[33.079512] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes/signal_dir_obligada.dae\n'}
+[33.079640] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes/direccion_obligada.jpg\n'}
+[33.079707] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes/signal_dir_obligada_fix.dae\n'}
+[33.079864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/model.config\n'}
+[33.080045] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_0\n'}
+[33.080259] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_0/model.sdf\n'}
+[33.080394] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_0/model.config\n'}
+[33.080532] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[33.080728] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[33.081286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[33.081536] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[33.082066] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[33.082738] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[33.083296] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[33.084025] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[33.084137] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/realrobotlab_v1.world\n'}
+[33.084597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[33.085203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[33.086417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[33.086946] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[33.087550] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[33.088123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[33.088760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[33.089528] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/include/\n'}
+[33.089780] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[33.089908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[33.090746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[33.091403] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[33.092510] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[33.093184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[33.093845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[33.094552] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[33.095139] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[33.095766] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[33.096402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[33.097050] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[33.097664] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[33.098333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[33.098617] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.099234] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.099978] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[33.100351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[33.100910] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/simulation_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[33.103866] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[33.129451] (-) TimerEvent: {}
+[33.230773] (-) TimerEvent: {}
+[33.242498] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[33.243518] (-) EventReactorShutdown: {}
